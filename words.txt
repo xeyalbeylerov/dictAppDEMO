@@ -2,3 +2,7 @@ alma,apple
 qelem,pen
 boyuk,big
 das,stone
+kicik,small
+ev,house
+adam,man
+usaq,child
