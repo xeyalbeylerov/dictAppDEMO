@@ -1,0 +1,4 @@
+alma,apple
+qelem,pen
+boyuk,big
+das,stone

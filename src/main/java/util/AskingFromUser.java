@@ -3,11 +3,11 @@ package util;
 import static util.InputUtil.inputString;
 
 public class AskingFromUser {
-    public static String[] askAzeOrEng() {
-        String name = inputString("Sual ingilisce sorushulsun yoxsa Azerbaycan dilinde?:");
-        String surname = inputString("Your surname:");
-        return new String[]{name,surname};
-    }
+//    public static String[] askAzeOrEng() {
+//        String name = inputString("Sual ingilisce sorushulsun yoxsa Azerbaycan dilinde?:");
+//        String surname = inputString("Your surname:");
+//        return new String[]{name,surname};
+//    }
 
 
     public static String askLang() {
@@ -19,14 +19,14 @@ public class AskingFromUser {
            return askLangLogic();
        }
     }
-    public static String askLangLogic() {
+    private static String askLangLogic() {
         String lang = inputString("Sual ingilisce sorushulsun yoxsa Azerbaycan dilinde?:");
         return lang;
     }
 
 
-    public static String askServerIpAndPort() {
-        String serverIpAndPort = inputString("Please type tcp server and port like localhost:6789");
-        return serverIpAndPort;
+    public static String askWord(String word) {
+        String resultWord = inputString("what is the meaning of "+word);
+        return resultWord;
     }
 }
